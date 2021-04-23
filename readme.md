@@ -1,4 +1,4 @@
-<h3>folder structure</h3>
+# folder structure
 
 ```
 root/
@@ -28,5 +28,19 @@ root/
 
 # Basic get route get route
 
-ent point '/'
-it will give your just a welcome message
+```
+root/
+├── get/
+│ └── # will return a welcome message
+├── controllers/
+│ ├── bootstrap.js
+│ └── bootstrap.min.js
+├── .env
+├── .env.example
+├── .gitignore
+├── index.js
+├── package.json
+├── readme.md
+├── yarn-error.log
+└── yarn.lock
+```
