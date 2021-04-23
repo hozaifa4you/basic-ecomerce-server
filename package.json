@@ -1,0 +1,14 @@
+{
+	"name": "basic-ecomerce-server",
+	"version": "1.0.0",
+	"description": "This is just for practice purpose",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": "https://github.com/yousuf4you/basic-ecomerce-server.git",
+	"author": "yousuf4you",
+	"license": "MIT",
+	"private": true
+}
