@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\yousu\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bcryptjs cloudinary cookie-parser cors detenv express express-fileupload jsonwebtoken jsonwebtoken mongoose
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\yousu\AppData\Local\Microsoft\WindowsApps;C:\Users\yousu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yousu\AppData\Roaming\npm;C:\Program Files (x86)\GitHub CLI\;D:\MongoDB\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/detenv: Not found
+      at Request.params.callback [as _callback] (C:\Users\yousu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\yousu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (node:events:369:20)
+      at Request.<anonymous> (C:\Users\yousu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (node:events:369:20)
+      at IncomingMessage.<anonymous> (C:\Users\yousu\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (node:events:475:28)
+      at IncomingMessage.emit (node:events:381:22)
+      at endReadableNT (node:internal/streams/readable:1307:12)
+      at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+npm manifest: 
+  {
+  	"name": "basic-ecomerce-server",
+  	"version": "1.0.0",
+  	"description": "This is just for practice purpose",
+  	"main": "index.js",
+  	"scripts": {
+  		"start": "node index.js",
+  		"dev": "nodemon index.js"
+  	},
+  	"repository": "https://github.com/yousuf4you/basic-ecomerce-server.git",
+  	"author": "yousuf4you",
+  	"license": "MIT",
+  	"private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
