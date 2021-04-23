@@ -19,22 +19,22 @@ root/
 ├── .env
 ├── .env.example
 ├── .gitignore
-├── index.js
+├── index.js # this is main boot file
 ├── package.json
 ├── readme.md
 ├── yarn-error.log
 └── yarn.lock
 ```
 
-# Basic get route get route
+# Basic request setup (get, post, put and delete)
 
 ```
 root/
 ├── get/
 │ └── # will return a welcome message
-├── controllers/
-│ ├──
-│ └──
+├── user/
+│ └── register/
+│    └── # to register new user
 ├──
 ├──
 ├──
