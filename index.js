@@ -20,6 +20,8 @@ app.use(fileUpload({ useTempFiles: true }));
 app.use(morgan("dev"));
 
 // end points
+app.use("/user", require("./routes/userRoute"));
+
 app.get("/", (req, res) => {
 	res.json({ msg: "You are welcome!" });
 });
