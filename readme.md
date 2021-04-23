@@ -30,10 +30,10 @@ root/
 
 ```
 root/
-├── get/
+├── '/' (get)
 │ └── # will return a welcome message
-├── user/
-│ └── register/
+├── 'user/'
+│ └── 'register/' (post)
 │    └── # to register new user
 ├──
 ├──
