@@ -1,5 +1,6 @@
 # folder structure
 
+```
 root/
 ├── config/
 │ └── config.js
@@ -23,6 +24,7 @@ root/
 ├── readme.md
 ├── yarn-error.log
 └── yarn.lock
+```
 
 # Basic get route get route
 
